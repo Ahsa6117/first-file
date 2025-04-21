@@ -21,8 +21,8 @@ if "chat_history" not in st.session_state:
     ]
 
 # --- Page Config ---
-st.set_page_config(page_title="Gemini Chatbot", page_icon="🤖")
-st.title("🤖 Panaversity Gemini Chatbot")
+st.set_page_config(page_title=" Chatbot", page_icon="🤖")
+st.title("🤖  AI assistant")
 
 # --- Chat Box ---
 user_input = st.chat_input("Type your message...")
